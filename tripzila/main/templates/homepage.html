@@ -14,6 +14,8 @@
     
     <!-- Link the CSS file -->
     <link rel="stylesheet" href="{% static 'css/styles.css' %}" >
+
+
     
     <!-- Google Fonts
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&family=Lora:wght@400;700&display=swap" rel="stylesheet">
@@ -122,7 +124,8 @@
                 <!-- Favorite Destination 1 -->
                 <div class="col-md-4 mb-4">
                     <div class="card">
-                        <img src="images/paris.png" width="350" height="200" class="card-img-top" alt="Destination 1">
+                        {% load static %}
+                            <img src="{% static 'images/paris.png' %}" width="350" height="200" class="card-img-top" alt="Destination 1">
                         <div class="card-body">
                             <h5 class="card-title">Paris</h5>
                             <p class="card-text">The City of Lights awaits you with its stunning landmarks and rich history.</p>
@@ -133,7 +136,8 @@
                 <!-- Favorite Destination 2 -->
                 <div class="col-md-4 mb-4">
                     <div class="card">
-                        <img src="images/newyork.png" width="350" height="200" class="card-img-top" alt="Destination 2">
+                        {% load static %}
+                            <img src="{% static 'images/newyork.png' %}" width="350" height="200" class="card-img-top" alt="Destination 2">
                         <div class="card-body">
                             <h5 class="card-title">New York</h5>
                             <p class="card-text">Experience the hustle and bustle of the Big Apple, from Broadway to Central Park.</p>
@@ -144,7 +148,8 @@
                 <!-- Favorite Destination 3 -->
                 <div class="col-md-4 mb-4">
                     <div class="card">
-                        <img src="images/tokyo.png" width="350" height="200" class="card-img-top" alt="Destination 3">
+                        {% load static %}
+                            <img src="{% static 'images/tokyo.png' %}" width="350" height="200" class="card-img-top" alt="Destination 3">
                         <div class="card-body">
                             <h5 class="card-title">Tokyo</h5>
                             <p class="card-text">Immerse yourself in the vibrant culture and cutting-edge technology of Japan's capital.</p>
@@ -161,7 +166,8 @@
                 <!-- Popular Property 1 -->
                 <div class="col-md-4 mb-4">
                     <div class="card">
-                        <img src="images/grand_plaza.png" width="350" height="200" class="card-img-top" alt="Property 1">
+                        {% load static %}
+                            <img src="{% static 'images/grand_plaza.png' %}" width="350" height="200" class="card-img-top" alt="Property 1">
                         <div class="card-body">
                             <h5 class="card-title">Grand Plaza Hotel</h5>
                             <p class="card-text">Luxury and comfort at the heart of the city, perfect for any occasion.</p>
@@ -172,7 +178,8 @@
                 <!-- Popular Property 2 -->
                 <div class="col-md-4 mb-4">
                     <div class="card">
-                        <img src="images/seaside_resort.png" width="350" height="200" class="card-img-top" alt="Property 2">
+                        {% load static %}
+                            <img src="{% static 'images/seaside_resort.png' %}" width="350" height="200" class="card-img-top" alt="Property 2">
                         <div class="card-body">
                             <h5 class="card-title">Seaside Resort</h5>
                             <p class="card-text">Relax by the beach and enjoy top-notch amenities at our seaside getaway.</p>
@@ -183,7 +190,8 @@
                 <!-- Popular Property 3 -->
                 <div class="col-md-4 mb-4">
                     <div class="card">
-                        <img src="images/mountain_lodg.png" width="350" height="200"class="card-img-top" alt="Property 3">
+                        {% load static %}
+                            <img src="{% static 'images/mountain_lodg.png' %}" width="350" height="200"class="card-img-top" alt="Property 3">
                         <div class="card-body">
                             <h5 class="card-title">Mountain Lodge</h5>
                             <p class="card-text">Escape to the mountains for a serene retreat with breathtaking views.</p>
